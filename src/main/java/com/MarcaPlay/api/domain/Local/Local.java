@@ -1,29 +1,26 @@
-package com.MarcaPlay.api.Domain.Atleta;
+package com.MarcaPlay.api.domain.Local;
 
-import com.MarcaPlay.api.Domain.Endereco.Endereco;
+import com.MarcaPlay.api.domain.Endereco.Endereco;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.hibernate.annotations.UuidGenerator;
 
 import java.util.UUID;
 
 @Entity
-@Table(name = "atleta")
+@Table(name = "local")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Atleta {
-    @Id
+public class Local {
     @GeneratedValue
+    @Id
     private UUID id;
-
     private String nome;
-    private String email;
-    private String telefone;
+    private String esporte;
 
     @OneToOne
     @JoinColumn(name = "endereco_id")

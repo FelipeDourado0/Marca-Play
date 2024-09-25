@@ -1,6 +1,6 @@
-package com.MarcaPlay.api.Domain.Partida;
+package com.MarcaPlay.api.domain.Partida;
 
-import com.MarcaPlay.api.Domain.Local.Local;
+import com.MarcaPlay.api.domain.Local.Local;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

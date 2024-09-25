@@ -1,4 +1,4 @@
-package com.MarcaPlay.api.Domain.Endereco;
+package com.MarcaPlay.api.domain.Endereco;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

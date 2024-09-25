@@ -1,14 +1,13 @@
-package com.MarcaPlay.api.Domain.PartidaAtleta;
+package com.MarcaPlay.api.domain.PartidaAtleta;
 
-import com.MarcaPlay.api.Domain.Atleta.Atleta;
-import com.MarcaPlay.api.Domain.Partida.Partida;
+import com.MarcaPlay.api.domain.Atleta.Atleta;
+import com.MarcaPlay.api.domain.Partida.Partida;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.print.DocFlavor;
 import java.util.UUID;
 
 @Entity
