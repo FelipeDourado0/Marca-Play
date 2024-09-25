@@ -26,5 +26,5 @@ public class Atleta {
 
     @OneToOne
     @JoinColumn(name = "endereco_id")
-    private Endereco idEndereco;
+    private Endereco endereco;
 }

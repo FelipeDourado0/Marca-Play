@@ -21,7 +21,7 @@ public class Partida {
     @GeneratedValue
     private UUID id;
 
-    private Date dataHoraParida;
+    private Date dataHoraPartida;
     private int quantidadeJogadores;
     private Date dataHoraCriacao;
 

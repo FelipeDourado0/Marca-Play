@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;
 
-public interface IPartidaAtleta extends JpaRepository<PartidaAtleta, UUID> {
+public interface IPartidaAtletaRepository extends JpaRepository<PartidaAtleta, UUID> {
 }

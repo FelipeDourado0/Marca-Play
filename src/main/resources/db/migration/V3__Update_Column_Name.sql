@@ -1,0 +1,1 @@
+ALTER TABLE partida RENAME COLUMN datahoraparida TO datahorapartida;

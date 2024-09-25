@@ -24,5 +24,5 @@ public class Local {
 
     @OneToOne
     @JoinColumn(name = "endereco_id")
-    private Endereco idEndereco;
+    private Endereco endereco;
 }

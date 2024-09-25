@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;
 
-public interface ILocal extends JpaRepository<Local, UUID> {
+public interface ILocalRepository extends JpaRepository<Local, UUID> {
 }
